@@ -7,7 +7,8 @@ export default {
         {
           id: 0,
           name: "Reservia",
-          image: "projet1.webp",
+          image:
+            "https://xnwpqgpquvsfqmpenpau.supabase.in/storage/v1/object/public/portfolio/projet1.webp",
           altText: "photo du projet Réservia",
           numb: 1,
           objectif: "Intégrer une maquette en utilisant html et css",
@@ -16,7 +17,8 @@ export default {
         {
           id: 1,
           name: "Ohmyfood",
-          image: "ohmyfood.webP",
+          image:
+            "https://xnwpqgpquvsfqmpenpau.supabase.in/storage/v1/object/public/portfolio/ohmyfood.webp",
           altText: "photo du projet ohmyfood",
           numb: 2,
           objectif: "Dynamiser une page web avec des animations css",
@@ -25,7 +27,8 @@ export default {
         {
           id: 2,
           name: "La Chouette Agence",
-          image: "chouette1.webp",
+          image:
+            "https://xnwpqgpquvsfqmpenpau.supabase.in/storage/v1/object/public/portfolio/chouette1.webp",
           altText: "photo du projet chouette version 1",
           numb: 3,
           objectif:
@@ -35,7 +38,8 @@ export default {
         {
           id: 3,
           name: "La Chouette Agence",
-          image: "chouette2.webp",
+          image:
+            "https://xnwpqgpquvsfqmpenpau.supabase.in/storage/v1/object/public/portfolio/chouette2.webp",
           altText: "photo du projet chouette version 2",
           numb: "3 Bis",
           objectif:
@@ -45,7 +49,8 @@ export default {
         {
           id: 4,
           name: "Kanap",
-          image: "kanap.webp",
+          image:
+            "https://xnwpqgpquvsfqmpenpau.supabase.in/storage/v1/object/public/portfolio/kanap.webp",
           altText: "photo du projet Kanap",
           numb: 4,
           objectif: "Faire le front d'un site de e-commerce et le connecter au backend",
@@ -54,7 +59,8 @@ export default {
         {
           id: 5,
           name: "Hot Takes",
-          image: "gears.webp",
+          image:
+            "https://xnwpqgpquvsfqmpenpau.supabase.in/storage/v1/object/public/portfolio/gears.webp",
           altText: " illustration pour le projet Hot Takes",
           numb: 5,
           objectif:
@@ -70,7 +76,8 @@ export default {
         {
           id: 6,
           name: "Groupomania",
-          image: "groupomania.webp",
+          image:
+            "https://xnwpqgpquvsfqmpenpau.supabase.in/storage/v1/object/public/portfolio/groupomania.webp",
           altText: " photo du projet Groupomania",
           numb: 6,
           objectif: "Créer un réseau social d'entreprise",
@@ -115,11 +122,7 @@ export default {
       >
         <a :href="item.lien" target="_blank" rel="noopener noreferrer">
           <div class="flex flex-row justify-center bg-slate-900 rounded-xl">
-            <img
-              :src="`src/assets/image/${item.image}`"
-              :alt="item.altText"
-              class="rounded-t-lg lg:h-80"
-            />
+            <img :src="item.image" :alt="item.altText" class="rounded-t-lg lg:h-80" />
           </div>
           <div class="bg-amber-600 p-2">
             <h2 class="text-3xl">#{{ item.numb }}: {{ item.name }}</h2>
