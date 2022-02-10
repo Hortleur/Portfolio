@@ -7,7 +7,7 @@ export default {
         {
           id: 0,
           name: "Reservia",
-          image: "src/assets/image/projet1.webp",
+          image: "../image/projet1.webp",
           altText: "photo du projet Réservia",
           numb: 1,
           objectif: "Intégrer une maquette en utilisant html et css",
@@ -16,7 +16,7 @@ export default {
         {
           id: 1,
           name: "Ohmyfood",
-          image: "src/assets/image/ohmyfood.webP",
+          image: "../image/ohmyfood.webP",
           altText: "photo du projet ohmyfood",
           numb: 2,
           objectif: "Dynamiser une page web avec des animations css",
@@ -25,7 +25,7 @@ export default {
         {
           id: 2,
           name: "La Chouette Agence",
-          image: "src/assets/image/chouette1.webp",
+          image: "../image/chouette1.webp",
           altText: "photo du projet chouette version 1",
           numb: 3,
           objectif:
@@ -35,7 +35,7 @@ export default {
         {
           id: 3,
           name: "La Chouette Agence",
-          image: "src/assets/image/chouette2.webp",
+          image: "../image/chouette2.webp",
           altText: "photo du projet chouette version 2",
           numb: "3 Bis",
           objectif:
@@ -45,7 +45,7 @@ export default {
         {
           id: 4,
           name: "Kanap",
-          image: "src/assets/image/kanap.webp",
+          image: "../image/kanap.webp",
           altText: "photo du projet Kanap",
           numb: 4,
           objectif: "Faire le front d'un site de e-commerce et le connecter au backend",
@@ -54,7 +54,7 @@ export default {
         {
           id: 5,
           name: "Hot Takes",
-          image: "src/assets/image/gears.webp",
+          image: "../image/gears.webp",
           altText: " illustration pour le projet Hot Takes",
           numb: 5,
           objectif:
@@ -70,7 +70,7 @@ export default {
         {
           id: 6,
           name: "Groupomania",
-          image: "src/assets/image/groupomania.webp",
+          image: "../image/groupomania.webp",
           altText: " photo du projet Groupomania",
           numb: 6,
           objectif: "Créer un réseau social d'entreprise",
