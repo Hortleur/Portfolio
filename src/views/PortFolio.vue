@@ -7,7 +7,7 @@ export default {
         {
           id: 0,
           name: "Reservia",
-          image: "../image/projet1.webp",
+          image: "projet1.webp",
           altText: "photo du projet Réservia",
           numb: 1,
           objectif: "Intégrer une maquette en utilisant html et css",
@@ -16,7 +16,7 @@ export default {
         {
           id: 1,
           name: "Ohmyfood",
-          image: "../image/ohmyfood.webP",
+          image: "ohmyfood.webP",
           altText: "photo du projet ohmyfood",
           numb: 2,
           objectif: "Dynamiser une page web avec des animations css",
@@ -25,7 +25,7 @@ export default {
         {
           id: 2,
           name: "La Chouette Agence",
-          image: "../image/chouette1.webp",
+          image: "chouette1.webp",
           altText: "photo du projet chouette version 1",
           numb: 3,
           objectif:
@@ -35,7 +35,7 @@ export default {
         {
           id: 3,
           name: "La Chouette Agence",
-          image: "../image/chouette2.webp",
+          image: "chouette2.webp",
           altText: "photo du projet chouette version 2",
           numb: "3 Bis",
           objectif:
@@ -45,7 +45,7 @@ export default {
         {
           id: 4,
           name: "Kanap",
-          image: "../image/kanap.webp",
+          image: "kanap.webp",
           altText: "photo du projet Kanap",
           numb: 4,
           objectif: "Faire le front d'un site de e-commerce et le connecter au backend",
@@ -54,7 +54,7 @@ export default {
         {
           id: 5,
           name: "Hot Takes",
-          image: "../image/gears.webp",
+          image: "gears.webp",
           altText: " illustration pour le projet Hot Takes",
           numb: 5,
           objectif:
@@ -70,7 +70,7 @@ export default {
         {
           id: 6,
           name: "Groupomania",
-          image: "../image/groupomania.webp",
+          image: "groupomania.webp",
           altText: " photo du projet Groupomania",
           numb: 6,
           objectif: "Créer un réseau social d'entreprise",
@@ -115,7 +115,11 @@ export default {
       >
         <a :href="item.lien" target="_blank" rel="noopener noreferrer">
           <div class="flex flex-row justify-center bg-slate-900 rounded-xl">
-            <img :src="item.image" :alt="item.altText" class="rounded-t-lg lg:h-80" />
+            <img
+              :src="`src/assets/image/${item.image}`"
+              :alt="item.altText"
+              class="rounded-t-lg lg:h-80"
+            />
           </div>
           <div class="bg-amber-600 p-2">
             <h2 class="text-3xl">#{{ item.numb }}: {{ item.name }}</h2>
