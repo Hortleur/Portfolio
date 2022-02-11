@@ -7,6 +7,7 @@
         src="../assets/IMG_20220206_150212.webp"
         alt="photo de moi"
         class="rounded-full w-28 md:w-56"
+        loading="lazy"
       />
     </div>
     <div
@@ -24,7 +25,11 @@
           href="https://github.com/Hortleur?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
-          ><img src="../assets/github-seeklogo.com.svg" alt="Lien GitHub" width="60"
+          ><img
+            src="../assets/github-seeklogo.com.svg"
+            alt="Lien GitHub"
+            width="60"
+            loading="lazy"
         /></a>
         <a
           href="https://www.linkedin.com/in/kevin-brun-dev/"
@@ -35,10 +40,15 @@
             src="../assets/linkedin-icon-seeklogo.com.svg"
             alt="Lien linkedin"
             width="60"
+            loading="lazy"
           />
         </a>
-        <a href="mailto:dev@kevinb.run"
-          ><img src="../assets/gs_email_sign.svg" alt="Lien email" width="60"
+        <a href="mailto:kevin.brun.dev@gmail.com"
+          ><img
+            src="../assets/gs_email_sign.svg"
+            alt="Lien email"
+            width="60"
+            loading="lazy"
         /></a>
       </div>
     </div>

@@ -122,7 +122,12 @@ export default {
       >
         <a :href="item.lien" target="_blank" rel="noopener noreferrer">
           <div class="flex flex-row justify-center bg-slate-900 rounded-xl">
-            <img :src="item.image" :alt="item.altText" class="rounded-t-lg lg:h-80" />
+            <img
+              :src="item.image"
+              :alt="item.altText"
+              class="rounded-t-lg lg:h-80"
+              loading="lazy"
+            />
           </div>
           <div class="bg-amber-600 p-2">
             <h2 class="text-3xl">#{{ item.numb }}: {{ item.name }}</h2>
