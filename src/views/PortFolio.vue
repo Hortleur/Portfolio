@@ -135,7 +135,7 @@ export default {
             <div class="flex flex-row flex-wrap justify-around bg-slate-100 rounded-2xl">
               <div v-for="item in item.tech" :key="item.id" class="my-2 w-1/3">
                 <div class="text-center text-lg text-emerald-900 font-semibolds">
-                  <h3 class="font-semibold text-2xl">{{ item.name }}</h3>
+                  <h3 class="font-semibold lg:text-2xl">{{ item.name }}</h3>
                 </div>
               </div>
             </div>
