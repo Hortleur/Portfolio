@@ -81,7 +81,7 @@ export default {
           altText: " photo du projet Groupomania",
           numb: 6,
           objectif: "Créer un réseau social d'entreprise",
-          lien: "https://groupomania-five.vercel.app",
+          lien: "https://github.com/Hortleur/groupamania",
           tech: [
             {
               id: 0,
