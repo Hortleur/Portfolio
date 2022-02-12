@@ -32,7 +32,7 @@ export default {
           altText: "photo du projet chouette version 1",
           numb: 3,
           objectif:
-            "Optimiser un site web existant(SEO & Accéssibilité), ce qui était attendu",
+            "Optimiser un site web existant (SEO & Accéssibilité), ce qui était attendu",
           lien: "https://hortleur.github.io/p4_modifier2/",
         },
         {
@@ -41,9 +41,9 @@ export default {
           image:
             "https://xnwpqgpquvsfqmpenpau.supabase.in/storage/v1/object/public/portfolio/chouette2.webp",
           altText: "photo du projet chouette version 2",
-          numb: "3 Bis",
+          numb: "3bis",
           objectif:
-            "Optimiser un site web existant(SEO & Accéssibilité), ce que j'aurai fait en situation réelle",
+            "Optimiser un site web existant (SEO & Accéssibilité), ce que j'aurais fait en situation réelle",
           lien: "https://hortleur.github.io/P4_modifier/",
         },
         {
@@ -130,7 +130,7 @@ export default {
             />
           </div>
           <div class="bg-amber-600 p-2">
-            <h2 class="text-3xl">#{{ item.numb }}: {{ item.name }}</h2>
+            <h2 class="text-3xl">#{{ item.numb }} {{ item.name }}</h2>
             <p>{{ item.objectif }}</p>
             <div class="flex flex-row flex-wrap justify-around bg-slate-100 rounded-2xl">
               <div v-for="item in item.tech" :key="item.id" class="my-2 w-1/3">
