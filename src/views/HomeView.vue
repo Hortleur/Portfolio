@@ -17,8 +17,8 @@
       <h2 class="text-4xl my-6 font-semibold">Développeur Web Junior Full Stack</h2>
       <p class="text-lg">
         Après avoir travaillé dans l'animation, puis dans la restauration en passant par
-        le milieu hospitalier, à presque 30 ans, je me lance dans cette nouvelle aventure
-        qu'est le monde du developpement web, un domaine qui m'a toujours attiré.
+        le milieu hospitalier, a presque 30 ans, je me lance dans cette nouvelle aventure
+        qu'est le monde du développement web, un domaine qui m'a toujours attiré.
       </p>
       <div class="flex flex-row justify-around mt-4 -mb-8">
         <a
